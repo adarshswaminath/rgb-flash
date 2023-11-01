@@ -19,7 +19,7 @@ function InputRange({setDelay}) {
             <div className="line-fill" style={{ width: `${sliderValue}%` }}></div>
           </div>
           <input
-            className="range range-primary range-xs  w-72 "
+            className="range range-info range-xs  w-64 "
             id="custom-range"
             type="range"
             value={sliderValue}

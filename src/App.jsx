@@ -14,14 +14,10 @@ function App() {
       style={animationStyle}
     >
       <div className="fixed bottom-3 flex flex-col items-center gap-3">
-        <div className="p-4 rounded-lg bg-black/10 bg-opacity-50 backdrop-blur">
-          <InputRange setDelay={setDelay} />
-        </div>
-        <div className="flex space-x-8 p-4 rounded-lg bg-black/10 bg-opacity-50 backdrop-blur">
+      
+        <div className="flex items-center space-x-8 p-4 rounded-lg bg-black/10 bg-opacity-50 backdrop-blur">
+        <InputRange setDelay={setDelay} />
           <Button setActive={setActive} isActive={isActive} />
-          <Button setActive={setActive} isActive={isActive} />
-          <Button setActive={setActive} isActive={isActive} />
-
         </div>
       </div>
     </div>
