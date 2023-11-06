@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.font-fancy {
+  font-family: 'Pacifico', cursive;
+}
+
 
 
 
@@ -20,4 +27,15 @@
   100% {
     background-color: #ff00ff;
   }
+}
+
+
+.watermark {
+  position: absolute;
+  bottom: 4rem;
+  right: 4rem;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  opacity: 0.5;
 }
